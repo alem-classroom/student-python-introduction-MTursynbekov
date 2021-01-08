@@ -14,6 +14,7 @@ def delete_elem_from_list(list, index = -1):
         return list.pop(index)
     else:
         return []
+    
 
 def count_elements_in_list(list, x):
     # count elements in the list that are equal to x and return the count
@@ -21,10 +22,8 @@ def count_elements_in_list(list, x):
 
 def sort_list(list):
     # return sorted list
-    list.sort()
-    return list
+    return list.sort()
 
 def reverse(list):
     # return reversed list
-    list.reverse()
-    return list
+    return list.reverse()
